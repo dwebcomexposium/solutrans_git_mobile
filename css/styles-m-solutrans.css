@@ -1,7 +1,7 @@
 /* @override 
-	https://solutrans-m.comexposium-admin.com/theme/solutrans_git_mobile/css/styles-m-solutrans.css */
+	https://solutrans-m.comexposium-admin.com/theme/solutrans_mobile/css/styles-m-solutrans.css */
 	
-/*	<link rel="stylesheet" type="text/css" href="/theme/solutrans_git_mobile/css/styles-m-solutrans.css">*/
+/*	<link rel="stylesheet" type="text/css" href="/theme/solutrans_mobile/css/styles-m-solutrans.css">*/
 
 
 /* ------------------------------------------------------------ *\
@@ -17,12 +17,13 @@ body { min-width: 320px; font-family: 'Source Sans Pro', sans-serif;  color: #6f
 
 .wrapper, .site-wrapper, .catalogue .wrapper, .catalogue .site-banner .inside {max-width: 640px; }
 
-div, span {
-  word-wrap: normal;
+div, span, h1, h2 {
+ word-break: normal;
   -webkit-hyphens: none;
-     -moz-hyphens: none;
-      -ms-hyphens: none;
-          hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none;
 }
 
 /* ------------------------------------------------------------ *\
@@ -416,7 +417,7 @@ div, span {
 	Popup
 \* ------------------------------------------------------------ */
 
-/*.newsletter-form { position: fixed; display: block !important; width: 100%; height: 100%; top: 0; left: 0; opacity: 0; visibility: hidden; background: rgba(0, 0, 0, 0.8); z-index: 10; font-family: 'Source Sans Pro', sans-serif;
+.newsletter-form { position: fixed; display: block !important; width: 100%; height: 100%; top: 0; left: 0; opacity: 0; visibility: hidden; background: rgba(0, 0, 0, 0.8); z-index: 10; font-family: 'Source Sans Pro', sans-serif;
 	-webkit-transition: opacity .3s, visibility .3s; 
 	     -o-transition: opacity .3s, visibility .3s; 
 	        transition: opacity .3s, visibility .3s; 
@@ -457,8 +458,6 @@ div, span {
 
 .newsletter-form .nf-form-submit button i,
 .newsletter-form label { display: none; }
-
-*/
 
 /* ------------------------------------------------------------ *\
 	Article List
@@ -896,19 +895,33 @@ body.article .article-title .inside { display: -webkit-flex;
 
 .participation .ql-item:nth-child(1) a { display: block; max-width: 280px; line-height: 1; }
 .participation .ql-item:nth-child(1) a span { display: inline-block; max-width: 165px; text-align: left; }
-.participation .ql-item:nth-child(1) a:before { content: ''; display: inline-block; width: 54px; height: 54px; margin-right: 16px; vertical-align: middle; background: url(images/ico-magnyfing-glass.jpg) no-repeat 0 0; 
+.participation .ql-item:nth-child(1) a:before { content: ''; display: inline-block; width: 54px; height: 54px; margin-right: 16px; vertical-align: middle; background: url(images/lp-ico-speaker.png) no-repeat 0 0; 
 	-webkit-background-size: 54px 54px; 
 	        background-size: 54px 54px; 
 }
 .participation .ql-item:nth-child(2) a { display: block; max-width: 335px; line-height: 1; text-align: left; }
 .participation .ql-item:nth-child(2) a span { display: inline-block; max-width: 165px; text-align: left; }
-.participation .ql-item:nth-child(2) a:before { content: ''; display: inline-block; width: 54px; height: 54px; margin-right: 12px; vertical-align: middle; background: url(images/ico-speaker.png) no-repeat 0 0; 
+.participation .ql-item:nth-child(2) a:before { content: ''; display: inline-block; width: 54px; height: 54px; margin-right: 12px; vertical-align: middle; background: url(images/lp-ico-booth.png) no-repeat 0 0; 
 	-webkit-background-size: 54px 54px; 
 	        background-size: 54px 54px; 
 }
 .participation .ql-item:nth-child(3) a { display: block; max-width: 294px; line-height: 1; text-align: left; }
 .participation .ql-item:nth-child(3) a span { display: inline-block; max-width: 165px; text-align: left; }
-.participation .ql-item:nth-child(3) a:before { content: ''; display: inline-block; width: 54px; height: 54px; margin-right: 7px; vertical-align: middle; background: url(images/ico-newspapaer.png) no-repeat 0 0; 
+.participation .ql-item:nth-child(3) a:before { content: ''; display: inline-block; width: 54px; height: 54px; margin-right: 7px; vertical-align: middle; background: url(images/lp-ico-lead.png) no-repeat 0 0; 
+	-webkit-background-size: 54px 54px; 
+	        background-size: 54px 54px; 
+}
+
+.participation .ql-item:nth-child(4) a { display: block; max-width: 294px; line-height: 1; text-align: left; }
+.participation .ql-item:nth-child(4) a span { display: inline-block; max-width: 165px; text-align: left; }
+.participation .ql-item:nth-child(4) a:before { content: ''; display: inline-block; width: 54px; height: 54px; margin-right: 7px; vertical-align: middle; background: url(images/lp-ico-star.png) no-repeat 0 0; 
+	-webkit-background-size: 54px 54px; 
+	        background-size: 54px 54px; 
+}
+
+.participation .ql-item:nth-child(5) a { display: block; max-width: 294px; line-height: 1; text-align: left; }
+.participation .ql-item:nth-child(5) a span { display: inline-block; max-width: 165px; text-align: left; }
+.participation .ql-item:nth-child(5) a:before { content: ''; display: inline-block; width: 54px; height: 54px; margin-right: 7px; vertical-align: middle; background: url(images/lp-ico-club.png) no-repeat 0 0; 
 	-webkit-background-size: 54px 54px; 
 	        background-size: 54px 54px; 
 }
@@ -1110,11 +1123,4 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 
 
 #cxpmClientAccountWidget {position: fixed;top: 50px;width: 56px;height: 32px;background: rgba(255, 255, 255, 0.6);left: -9px;margin-right: 5px;}
-
-
-
-
-
-
-
 
