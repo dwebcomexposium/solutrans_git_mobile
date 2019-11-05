@@ -1131,3 +1131,47 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 .header-logo { margin-top: -29px; }
 .header-exhibitors {display: none; }
 .site-banner .global-search-form .gsf-trigger {top: 10px; }
+
+
+/* ------------------------------------------------------------ *\
+	Contacts
+\* ------------------------------------------------------------ */
+
+.contacts-alt { max-width: 300px; margin: 25px auto; font-size: 13px; font-weight: 300; letter-spacing: 0.05em; color: #4f2e81; white-space: nowrap; }
+
+.contacts-alt ul { padding: 10px;/* border: 1px solid #dcd5e6; */ list-style-type: none; 
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	flex-direction: column;
+}
+.contacts-alt li { position: relative; padding-bottom: 0px; }
+.contacts-alt li+li { padding-bottom: 7px; }
+.contacts-alt li + li {  }
+
+.contacts-alt [href^="mailto"] { position: relative; display: inline-block; top: 1px; color: #4f2e81; text-decoration: underline; }
+.contacts-alt [href^="mailto"]:hover { color: #000; }
+
+.contacts-alt .contacts__link { display: inline-block; height: 37px; padding: 0 28px; margin: -1px 0 -1px 30px; vertical-align: middle; font-size: 13px; line-height: 37px; font-weight: 900; letter-spacing: 0.07em; color: #fff; background: #4f2e81; 
+	-webkit-transform: skew(-20deg); 
+	    -ms-transform: skew(-20deg); 
+	     -o-transform: skew(-20deg); 
+	        transform: skew(-20deg); 
+	-webkit-transition: background .3s; 
+	     -o-transition: background .3s; 
+	        transition: background .3s; 
+}
+.contacts-alt .contacts__link:hover { background: #000; }
+.contacts-alt .contacts__link span { display: inline-block; 
+	-webkit-transform: skew(20deg); 
+	    -ms-transform: skew(20deg); 
+	     -o-transform: skew(20deg); 
+	        transform: skew(20deg); 
+}
+
+.contacts-alt .contacts__phone { font-weight: 700; white-space: nowrap; }
+.contacts-alt .contacts__phone span { position: relative; display: inline-block; top: -2px; margin-right: 13px; }
+.contacts-alt .contacts__phone a { font-size: 20px; color: #4f2e81; }
