@@ -291,9 +291,9 @@ div, span, h1, h2 {
 .quicklinks.cta li:nth-child(4) .btn-primary span { max-width: 90px; }
 .quicklinks.cta li:nth-child(5) .btn-primary span { max-width: 120px; }
 
-.quicklinks.cta li:nth-child(1) .btn-primary:before { width: 19px; height: 35px; background-image: url(images/icons/ico-mobile-1.svg); -webkit-background-size: 19px 35px; background-size: 19px 35px; }
-.quicklinks.cta li:nth-child(2) .btn-primary:before { width: 28px; height: 30px; background-image: url(images/icons/ico-date-2.svg); -webkit-background-size: 28px 30px; background-size: 28px 30px; }
-.quicklinks.cta li:nth-child(3) .btn-primary:before { width: 36px; height: 30px; background-image: url(images/icons/ico-map.svg); -webkit-background-size: 36px 30px; background-size: 36px 30px; }
+.quicklinks.cta li:nth-child(1) .btn-primary:before { width: 25px; height: 35px; background-image: url(images/icons/ico-calc.svg); -webkit-background-size: 25px 35px; background-size: 25px 35px; }
+.quicklinks.cta li:nth-child(2) .btn-primary:before { width: 37px; height: 37px; background-image: url(images/icons/ico-exhibit.svg); -webkit-background-size: 37px 37px; background-size: 37px 37px; }
+.quicklinks.cta li:nth-child(3) .btn-primary:before { width: 33px; height: 27px; background-image: url(images/icons/ico-photos.svg); -webkit-background-size: 33px 27px; background-size: 33px 27px; }
 .quicklinks.cta li:nth-child(4) .btn-primary:before { width: 37px; height: 35px; background-image: url(images/icons/ico-lamp.svg); -webkit-background-size: 37px 35px; background-size: 37px 35px; }
 .quicklinks.cta li:nth-child(5) .btn-primary:before { width: 24px; height: 31px; background-image: url(images/icons/ico-newsletter.svg); -webkit-background-size: 24px 31px; background-size: 24px 31px; }
 
