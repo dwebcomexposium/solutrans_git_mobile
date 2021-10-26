@@ -1175,3 +1175,7 @@ span.mysel-modal-title-txt {text-transform: uppercase; font-size: 15px; letter-s
 .contacts-alt .contacts__phone { font-weight: 700; white-space: nowrap; }
 .contacts-alt .contacts__phone span { position: relative; display: inline-block; top: -2px; margin-right: 13px; }
 .contacts-alt .contacts__phone a { font-size: 20px; color: #4f2e81; }
+
+
+.article-wrapper .article-content .cl-item-web span {display: none; }
+.article-wrapper .article-content .cl-item-web a {display: inline-block; background: #ffffff; padding: 0 10px; text-decoration: none; margin-top: 7px; font-size: 13px; font-weight: bold; }
